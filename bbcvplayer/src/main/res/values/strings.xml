@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">bbcvPlayer</string>
+    <string name="setting_title">设置</string>
+    <string name="setting_menu_select">模式</string>
+    <string name="seting_menu_first">URL</string>
+    <string name="setting_menu_second">rtsp地址</string>
+    <string name="default_url">udp://@:55555</string>
+    <string name="default_rtsp">rtsp://192.168.200.202:12345</string>
+    <string name="button_text">开始</string>
+    <string name="video_string">本地视频</string>
+    <string name="audio_string">本地音频</string>
+    <string name="picture_string">本地图片</string>
+    <string name="menu_select">菜单选择</string>
+    <string name="file_internet">网上资源</string>
+    <string name="custom_string">手动输入</string>
+
+    <!--
+        字符串使用在java 代码中
+            <string name="default_url">udp://@:55555</string>
+    -->
+    <string name="button_title">请输入URL</string>
+    <string name="button_yes">确定</string>
+    <string name="button_cansel">取消</string>
+
+    <string name="warning_string">输入内容不能为空</string>
+    <string name="wait_loadvideo">等待扫描视频文件</string>
+</resources>

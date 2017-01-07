@@ -1,0 +1,2 @@
+set solib-search-path /home/yyd/android_test/bbcvPlayerCore/obj/local/armeabi-v7a
+directory /home/yyd/bbcv_iptv/andorid_env/Android/android-ndk-r11c/platforms/android-9/arch-arm/usr/include /home/yyd/android_test/bbcvPlayerCore/jni /home/yyd/android_test/bbcvPlayerCore/jni/ffmpeg-lib/include /home/yyd/android_test/bbcvPlayerCore/jni/sdl-lib/include /home/yyd/bbcv_iptv/andorid_env/Android/android-ndk-r11c/sources/cxx-stl/stlport/stlport /home/yyd/bbcv_iptv/andorid_env/Android/android-ndk-r11c/sources/cxx-stl//gabi++/include

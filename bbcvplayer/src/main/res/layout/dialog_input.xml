@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#7a7"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textColor="#eee"
+        android:textStyle="bold"/>
+    -->
+    <EditText
+        android:id = "@+id/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:orientation="horizontal">
+        <Button
+            android:id = "@+id/btn_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:text="@string/button_yes"
+            />
+        <Button
+            android:id = "@+id/btn_cancel"
+            android:layout_margin="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:text="@string/button_cansel"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
